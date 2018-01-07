@@ -27,10 +27,10 @@
 }
 
 .votepicker img {
-    width: 16px;
+    width: 24px;
     height: 16px;
     padding: unset;
-    margin: 0 4px;
+    padding: 0 4px;
 }
 
 /* This should prevent misclicks on mobile. */
