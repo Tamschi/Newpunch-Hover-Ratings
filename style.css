@@ -30,6 +30,7 @@
 .postfoot > .right .dropdown-menu {
     display: inline-block !important;
     position: relative;
+    z-index: unset;
 }
 
 .postfoot > .right .dropdown-content {
