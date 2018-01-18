@@ -1,6 +1,23 @@
 /* Show ratings on hover roughly like on Oldpunch: */
 /* It's a bit messy, but for now it works well enough. */
 
+/* Accepted Answer fix: */
+/* This will probably cause some weirdness if/when Garry adds anything else to the right footer. */
+.postblock .postfoot > .right {
+    flex-direction: column;
+}
+
+.postblock .postfoot > .right > :first-child:not(:last-child) {
+    margin-top: -3.6rem;
+    margin-bottom: .8rem;
+}
+
+.postblock .postfoot > .right > :first-child:not(:last-child) > .button {
+    /* Fix for Awfully White: */
+    margin-bottom: 0;
+}
+/* Accepted Answer fix end. */
+
 .postfoot > .right > span > span {
     display: inline-block;
     vertical-align: middle;
@@ -13,7 +30,6 @@
 .postfoot > .right .dropdown-menu {
     display: inline-block !important;
     position: relative;
-    z-index: unset;
 }
 
 .postfoot > .right .dropdown-content {
