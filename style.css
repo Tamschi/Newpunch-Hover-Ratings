@@ -31,6 +31,7 @@
     display: inline-block !important;
     position: relative;
     z-index: unset;
+    overflow-y: unset;
 }
 
 .postfoot > .right .dropdown-content {
